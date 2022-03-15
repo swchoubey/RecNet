@@ -1,6 +1,7 @@
 # RecNet YouTube Data Extractor
 
 Requires Python3.*
+
 **Setup**
 1. Generate an OAuth Client Id following steps here: https://developers.google.com/workspace/guides/create-credentials
 2. Copy the credentials.json file to your repositories home folder.
@@ -21,6 +22,7 @@ Requires Python3.*
 This would run the script and generate some recommendations.
 
 **About the model**
+
 You can tweak the following:
 ```
     MIN_TEXT_LIMIT = 100 # Min text length cutoff to consider a liked video
@@ -31,3 +33,7 @@ You can tweak the following:
 
 - We currently use data extracted from YouTube video's transcripts, their tags and description. We do TF-IDF vectorization on top of this and then run NMF (Non-negative matrix factorization) to make topic vectors for each liked video.
 - On these topic vectors we check cosine similarity and recommend people with most similar videos as potential friends
+
+
+**Sample Output**
+![image](https://user-images.githubusercontent.com/16242146/158304095-5e772a6c-732c-4f8d-9f2b-4c9b0c76dab1.png)
