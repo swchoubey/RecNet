@@ -1,6 +1,7 @@
 # RecNet YouTube Data Extractor
 
 Requires Python3.*
+
 **Setup**
 1. Generate an OAuth Client Id following steps here: https://developers.google.com/workspace/guides/create-credentials
 2. Copy the credentials.json file to your repositories home folder.
