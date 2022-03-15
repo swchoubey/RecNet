@@ -33,3 +33,7 @@ You can tweak the following:
 
 - We currently use data extracted from YouTube video's transcripts, their tags and description. We do TF-IDF vectorization on top of this and then run NMF (Non-negative matrix factorization) to make topic vectors for each liked video.
 - On these topic vectors we check cosine similarity and recommend people with most similar videos as potential friends
+
+
+**Sample Output**
+![image](https://user-images.githubusercontent.com/16242146/158304095-5e772a6c-732c-4f8d-9f2b-4c9b0c76dab1.png)
