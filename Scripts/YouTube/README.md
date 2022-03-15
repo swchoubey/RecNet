@@ -21,6 +21,7 @@ Requires Python3.*
 This would run the script and generate some recommendations.
 
 **About the model**
+
 You can tweak the following:
 ```
     MIN_TEXT_LIMIT = 100 # Min text length cutoff to consider a liked video
